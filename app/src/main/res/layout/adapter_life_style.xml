@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/base_margin"
+    android:paddingTop="@dimen/base_margin">
+
+    <ImageView
+        android:id="@+id/type_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/small_margin"
+        android:background="@drawable/comf" />
+
+    <TextView
+        android:id="@+id/state_tv"
+        style="@style/BaseBlackTextStyle"
+        android:layout_marginBottom="@dimen/too_small_margin"
+        android:layout_toRightOf="@+id/type_iv"
+        android:text="良好"
+        android:textSize="@dimen/large_text_size" />
+
+    <TextView
+        android:id="@+id/suggest_tv"
+        style="@style/BaseBlackTextStyle"
+        android:layout_below="@+id/state_tv"
+        android:layout_toRightOf="@+id/type_iv"
+        android:text="建议" />
+</RelativeLayout>

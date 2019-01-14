@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">猴菇天气</string>
+    <string name="in_the_location">定位中…</string>
+    <string name="permission_denied">无法获取当前位置的天气情况</string>
+    <string name="fifteen_days_forecast">15天趋势预报</string>
+    <string name="life_style">生活指数</string>
+    <string name="special_instructions">数据来源：和风天气\nUI模仿自：小米天气\n使用语言：Kotlin\n开发者：猴菇同学
+        \n开源协议：GNU GENERAL PUBLIC LICENSE\n开源地址-https://github.com/MonkeyMushroom/MonkeyWeatherByKotlin-
+        \n欢迎交流学习！</string>
+    <string name="nick_name">猴菇同学</string>
+    <string name="csdn_blog">http://blog.csdn.net/qq_31715429</string>
+    <string name="search_city">搜索国内外城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="air_quality_index">空气质量指数</string>
+    <string name="main_contaminant">主要污染物</string>
+    <string name="air_quality_unit">单位:μg/m³</string>
+
+    <string name="no_internet">没有网络</string>
+    <string name="no_SDCard">SD卡没有插好</string>
+    <string name="socket_timeout">连接超时</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="loading">正在加载……</string>
+    <string name="load_fail">加载失败，请重试</string>
+    <string name="click_to_load_more">点击加载更多</string>
+    <string name="unknown_exception">未知异常</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_complete">更新完成</string>
+</resources>
